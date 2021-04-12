@@ -18,8 +18,7 @@ class App extends Component {
         loop1: [0, 10055.986394557824],
         loop2: [12000, 10055.986394557824],
       },
-      html5: true,
-      loop: true,
+      html5: true
     });
     sound.play(src);
   };
